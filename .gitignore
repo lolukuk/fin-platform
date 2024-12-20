@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+.eggs/
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+sdist/
+*.egg
+MANIFEST
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Poetry
+poetry.lock
+.venv
+venv
+
+# Logs
+*.log
+
+# IDE / Text Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.jpr
+*.DS_Store
+
+*.swp
+*~
+.env
+
+auth_service/migrations/versions/*
+transaction_service/migrations/versions/*
